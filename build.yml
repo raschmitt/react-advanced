@@ -1,0 +1,15 @@
+trigger:
+  - master
+
+variables:
+- group: net-core-docker-sample
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      ref: refs/heads/master
+      name: pipeline-templates
+
+extends:
+  template: templates\js\template.yml@templates
