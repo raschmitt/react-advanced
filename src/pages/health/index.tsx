@@ -1,9 +1,11 @@
+import { GetServerSideProps } from 'next'
+
 function Health() {
 }
 
-export async function getServerSideProps(context) {
-context.res.end('Healthy');
-return { props: { } }
+export const getServerSideProps: GetServerSideProps = async (context) => {
+    context.res.end('Healthy');
+    return { props: { } }
 }
 
 export default Health;
