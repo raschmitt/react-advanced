@@ -1,6 +1,7 @@
 import { GetServerSideProps } from 'next'
 
 function Health() {
+    return
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
