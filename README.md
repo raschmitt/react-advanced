@@ -9,9 +9,7 @@ Sample [React](https://reactjs.org/) project with [NextJs](https://nextjs.org/).
 
 - [Docker](https://docs.docker.com/get-docker/)
 
-## How to run
-
-- ### Running the project
+## Running the project
 
 1. Simply clone this repository and run `docker-compose up`.
 
