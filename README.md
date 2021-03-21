@@ -13,7 +13,7 @@ Sample [React](https://reactjs.org/) project with [NextJs](https://nextjs.org/).
 
 ## Live preview [![Website](https://img.shields.io/website?down_message=Unhealthy&label=Health%20Check&up_message=Healthy&url=https%3A%2F%2Freact-nextjs-sample-service-raschmitt.cloud.okteto.net%2Fhealth)](https://react-nextjs-sample-service-raschmitt.cloud.okteto.net/health)
 
-A live preview of this API can be found [here](https://react-nextjs-sample-service-raschmitt.cloud.okteto.net).
+A live preview of this project can be found [here](https://react-nextjs-sample-service-raschmitt.cloud.okteto.net).
 
 ## Running the project locally
 
