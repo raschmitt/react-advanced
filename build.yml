@@ -1,8 +1,12 @@
 trigger:
   - main
 
-variables:
-- group: net-core-docker-sample
+schedules:
+- cron: "0 */12 * * * "
+  displayName: Build every 12 hours
+  branches:
+    include:
+    - main
 
 resources:
   repositories:
@@ -13,3 +17,5 @@ resources:
 
 extends:
   template: templates\js\template.yml@templates
+  parameters:
+    deploy_application: true
