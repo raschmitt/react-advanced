@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: react-nextjs-sample-service
+  annotations:
+    dev.okteto.com/auto-ingress: "true"
+spec:
+  selector:
+    app: react-nextjs-sample
+  ports:
+  - port: 80
+    targetPort: 3000
+    protocol: TCP
+  type: ClusterIP
+  

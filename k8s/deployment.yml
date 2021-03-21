@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-nextjs-sample-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react-nextjs-sample
+  template:
+    metadata:
+      labels:
+        app: react-nextjs-sample
+    spec:
+      containers:
+      - name: react-nextjs-sample
+        image: raschmitt/react-nextjs-sample:latest
+        resources:
+          limits:
+            memory: "100Mi"
+            cpu: "100m"
+        ports:
+        - containerPort: 3000
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          failureThreshold: 3
+          periodSeconds: 10
