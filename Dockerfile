@@ -10,6 +10,6 @@ RUN npm run build
 CMD ["npm", "run", "start"]
 
 RUN apk --no-cache add curl
-HEALTHCHECK CMD curl -f http://localhost:3000/health || exit 1
+HEALTHCHECK CMD curl -f http://localhost:3000/health
 
 EXPOSE 3000
