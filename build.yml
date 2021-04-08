@@ -9,6 +9,9 @@ schedules:
     - main
   always: true
 
+variables:
+- group: react-nextjs-sample
+
 resources:
   repositories:
     - repository: templates
