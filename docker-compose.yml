@@ -1,15 +1,13 @@
- 
-version: "3.8"
-
-volumes:
-    sql-server:
-
 services:     
-    react-advanced:
-        image: react-advanced
-        container_name: react-advanced
+    react-nextjs-sample:
+        image: react-nextjs-sample
+        container_name: react-nextjs-sample
         build:
             context: ./
-            dockerfile: Dockerfile
+            dockerfile: Dockerfile.Dev
+        volumes:
+            - ./:/app
+            - /app/node_modules
+            - /app/.next
         ports:
           - "3000:3000"
