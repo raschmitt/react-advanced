@@ -35,3 +35,7 @@ yarn-error.log*
 
 # junit coverage report
 junit.xml
+
+# stryker
+.stryker-tmp
+/reports
