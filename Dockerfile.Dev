@@ -6,7 +6,6 @@ COPY package*.json ./
 RUN npm install --silent
 
 COPY . ./
-RUN npm run build
 CMD ["npm", "run", "dev"]
 
 RUN apk --no-cache add curl
