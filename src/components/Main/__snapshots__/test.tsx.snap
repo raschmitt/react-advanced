@@ -1,25 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+}
+
+.c4 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-ci63rf-0 ezVJVC"
+  class="c0"
 >
   <img
-    class="styles__Logo-ci63rf-1 cVJkYJ"
+    class="c1"
     src="/img/logo.svg"
   />
   <h1
-    class="styles__Tille-ci63rf-2 jEYgEL"
+    class="c2"
   >
     React - NextJs Sample
   </h1>
   <h2
-    class="styles__Description-ci63rf-3 hybxvL"
+    class="c3"
   >
     Typescript, ReactJs, NextJs & Styled Components
   </h2>
   <img
-    class="styles__Illustration-ci63rf-4 eiiSZ"
+    class="c4"
     src="/img/hero-illustration.svg"
   />
 </main>
