@@ -3,7 +3,7 @@
 [![Azure DevOps builds (stage)](https://img.shields.io/azure-devops/build/raschmitt/7618d927-8467-43e2-b5e9-1aeddc1fbfdc/29?label=Continuous%20Integration&stage=CI)](https://dev.azure.com/raschmitt/raschmitt/_build?definitionId=29)
 [![Azure DevOps builds (stage)](https://img.shields.io/azure-devops/build/raschmitt/7618d927-8467-43e2-b5e9-1aeddc1fbfdc/29?label=Continuous%20Delivery&stage=CD)](https://dev.azure.com/raschmitt/raschmitt/_build?definitionId=29)
 [![Sonar Coverage](https://img.shields.io/sonar/coverage/raschmitt_react-nextjs-sample?label=Code%20coverage&server=https%3A%2F%2Fsonarcloud.io&style=flat-square)](https://sonarcloud.io/dashboard?id=raschmitt_react-nextjs-sample)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fraschmitt%2Freact-nextjs-sample%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/raschmitt/react-nextjs-sample/main)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fraschmitt%2Freact-nextjs-boilerplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/raschmitt/react-nextjs-boilerplate/main)
 [![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/raschmitt/react-nextjs-sample/latest?label=Latest%20Image&style=flat-square)](https://hub.docker.com/repository/docker/raschmitt/react-nextjs-sample)
 
 Boilerplate [React](https://reactjs.org/) project with [NextJs](https://nextjs.org/).
