@@ -1,7 +1,7 @@
-services:     
-    react-nextjs-sample:
-        image: react-nextjs-sample
-        container_name: react-nextjs-sample
+services:
+    react-nextjs-boilerplate:
+        image: react-nextjs-boilerplate
+        container_name: react-nextjs-boilerplate
         build:
             context: ./
             dockerfile: Dockerfile.Dev
