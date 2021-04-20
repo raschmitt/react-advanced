@@ -22,6 +22,12 @@ A live preview of this project can be found [here](https://react-nextjs-sample-s
 
 2. Access [http://localhost:3000](http://localhost:3000) and you are good to go.
 
+## Using as a boilerplate
+
+To use this project as a boilerplate for new projects use:
+
+`yarn create next-app -e https://github.com/raschmitt/react-nextjs-sample`
+
 ## Contributions
 
   Contributions and feature requests are always welcome.
