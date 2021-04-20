@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: react-nextjs-sample-deployment
+  name: react-nextjs-boilerplate-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: react-nextjs-sample
+      app: react-nextjs-boilerplate
   template:
     metadata:
       labels:
-        app: react-nextjs-sample
+        app: react-nextjs-boilerplate
     spec:
       containers:
-      - name: react-nextjs-sample
-        image: raschmitt/react-nextjs-sample:latest
+      - name: react-nextjs-boilerplate
+        image: raschmitt/react-nextjs-boilerplate:latest
         resources:
           limits:
             memory: "100Mi"
